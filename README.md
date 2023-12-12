@@ -14,25 +14,25 @@ In projects conducted in Africa, including HIV studies, local researchers are un
 ### Background
 The International epidemiology Databases to Evaluate AIDS (IeDEA) are a global research consortium of researchers from low-, middle- and high-income countries established in 2006. IeDEA is a highly productive collaboration, having published over 1500 articles. We assessed gender and regional inequalities in publication rates and authorship position among articles produced in 2007-2020 by the Southern Africa region of IeDEA (IeDEA-SA), led by the University of Cape Town, South Africa, and the University of Bern, Switzerland.
 ### Methods 
-We extracted authors’ names and affiliations from 313 published articles acknowledging IeDEA-SA funding, excluding articles with groups listed as authors. We assigned income levels of the authors’ country as indicated in their primary affiliations using the World Bank’s classification. We determined the authors’ gender based on their first names using the US Social Security and Census databases. We recovered missing values by contacting corresponding authors by email. We compared distributions of authorship positions by country income level and gender. We assessed differences in authorship position (first and last author versus central authorship) by gender and country income level using generalized multinomial regression model with random intercept for authors. 
+We extracted authors’ names and affiliations from 313 published articles acknowledging IeDEA-SA funding, excluding articles with groups listed as authors. We assigned income levels of the authors’ country as indicated in their primary affiliations using the World Bank’s classification. We determined the authors’ gender based on their first names using the US and UK Census databases. We recovered missing values by contacting corresponding authors by email. We compared distributions of authorship positions by gender and country income level. We assessed differences in authorship position (first and last author versus central authorship) by gender and country income level using generalized multinomial regression model with random intercept for authors. 
 
 
 
 
 ### Results
-### 1. Distribution of authorship positions
-![image](https://user-images.githubusercontent.com/85167050/231480559-5798cd53-bad5-4c3c-9cd3-4cb2417ebab0.png)
+### 1. Distribution of authorship positions by gender
+### 2. Proportion of female authorships
+![Figure1](https://github.com/sk-veronika/Authorships/blob/main/figures/Figure1_gender.jpg)
 
-### 2. Proportion of authorships per position
-
+### 1. Distribution of authorship positions by country of affiliation
+### 2. Proportion of authorships from LIC, UMIC, HIC
+![Figure2](https://github.com/sk-veronika/Authorships/blob/main/figures/Figure2_aff.jpg)
 
 ### 3. Development over time
-
-![Figure2](https://user-images.githubusercontent.com/85167050/231481915-2cab0201-d214-4296-b0da-826d0d2e0fae.png)
-
+![Figure3](https://github.com/sk-veronika/Authorships/blob/main/figures/Figure3_time_trends.png)
 
 ### 4. Differences in publishing as first/last author 
-
+![Figure4](https://github.com/sk-veronika/Authorships/blob/main/figures/GMRM_results.JPG)
 
 
 
