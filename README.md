@@ -21,11 +21,11 @@ We extracted authors’ names and affiliations from 313 published articles ackno
 
 ### Results
 ### 1. Distribution of authorship positions by gender
-### 2. Proportion of female authorships
+### 2. Proportion of female authorships per position
 ![Figure1](https://github.com/sk-veronika/Authorships/blob/main/figures/Figure1_gender.jpg)
 
 ### 1. Distribution of authorship positions by country of affiliation
-### 2. Proportion of authorships from LIC, UMIC, HIC
+### 2. Proportion of authorships from LIC, UMIC, HIC per position
 ![Figure2](https://github.com/sk-veronika/Authorships/blob/main/figures/Figure2_aff.jpg)
 
 ### 3. Development over time
