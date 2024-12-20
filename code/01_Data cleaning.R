@@ -1,19 +1,3 @@
-###   Export simple database for Kostas   ###
-setwd("C:/Users/skrivankova/OneDrive - Universitaet Bern/Work/ISPM/IeDEA/Authorships")
-d = read.csv("03_Data/Data_authorships.csv")
-names(d)
-d2 = d[,c(3,5,4,6,120,8:10,123,124,14,16:17,15)]; dim(d2)
-colnames(d2)[c(9,10)] = c("affil_level","N_authors")
-head(d2)[,-2]
-names(d2)
-o2 = order(d2[,11])
-d3 = d2[o2,]; d3[1:20,-2]
-o3 = order(d3[,1])
-d4 = d3[o3,]; d4[1:20,-2]
-write.csv(d4,"03_Data/Data_authorships_Konstantinos.csv")
-########################################################
-
-
 ###  Data manipulation
 
 ##   Reorder by PMID and author position
@@ -228,7 +212,7 @@ d2[,1:10]
 write.csv(d2,"03_Data/Author_codes2_wrong_subset.csv")
 
 
-#   Correct the wrong author codes  #   <<<<<<<<<   !!!!!!!!!
+#   Correct the wrong author codes  #    
 
 
 d = dx = read.csv("03_Data/Data_authorships_5.csv")
